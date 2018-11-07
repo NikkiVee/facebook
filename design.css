@@ -1,4 +1,4 @@
-html, body, header, nav, h1, a,
+/* html, body, header, nav, h1, a,
 ul, ol, li, strong, main, button, i,
 section, img, div, h2, p, form,
 fieldset, label, input, textarea,
@@ -40,8 +40,11 @@ button {
 button,
 input[type="submit"] {
   cursor: pointer;
-}
+} */
 
+* body {
+  margin: 0 0
+}
 
 .header {
   display: flex;
@@ -51,10 +54,26 @@ input[type="submit"] {
 }
 
 .logo {
+  display: flex;
   justify-content: space-around;
   width: 170px;
   height: 33px;
   color: white;
-  font-family: Klavika Bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
   font-size: 40px;
+  font-weight: bold;
+}
+
+.loginMenu {
+padding-top: 15px;
+padding-bottom: 20px;
+padding-left: 297px;
+justify-content: space-between;
+color: white;
+font-size: 14px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+}
+
+.inputBox {
+width: 138px;
 }
