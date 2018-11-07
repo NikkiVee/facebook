@@ -78,6 +78,9 @@ input[type="submit"] {
   background-color: #4267b2;
   border-color: #29487d;
   color: white;
+  width: 50px;
+  height: 22px;
+  font-family: inherit;
 }
 
 .forgot  {
@@ -121,6 +124,8 @@ input[type="submit"] {
 .right {
   grid-column: 2;
   grid-row: 1 / 4;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+  font-size: 20px;
 }
 
 .account {
@@ -128,13 +133,55 @@ input[type="submit"] {
   grid-row: 1;
 }
 
+.FirstLast {
+
+}
+
+.form {
+  width: 190px;
+  height: 28px;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+}
+
+
+.MobilePassword2 {
+  display: block;
+  width: 389px;
+  height: 28px;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+}
+
+
+.dropdown {
+  width: 66px;
+  height: 30px;
+  font-size: 14px;
+}
+
+
 .free {
   grid-column: 2;
   grid-row: 2;
 }
 
+.languages {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
 
-h2 {
+.bottom {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
 
+li{
+    padding-left:20px;
+}
 
+a {
+    color: #3c5994;
 }

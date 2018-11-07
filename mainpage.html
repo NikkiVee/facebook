@@ -18,13 +18,13 @@
                 <td>Email or Phone</td>
                 <td>Password</td>
                 </tr>
-        <!-- </div>
+         </div>
 
-        <div class="inputBox"> -->
+        <div class="inputBox">
 
                 <tr>
                 <td><input type="text" name="email" placeholder=""></td>
-                <td><input type="text" name="password" placeholder=""></td>
+                <td><input type="password" name="password" placeholder=""></td>
                 <td><input class="button"type="submit" value="Log In"></td>
                 </tr>
 
@@ -49,15 +49,19 @@
         <p class"free">It's free and always will be.        </p>
 
         <form>
-          <input type="text" name="firstname" placeholder="First name">
-          <input type="text" name="lastname" placeholder="Last name">
-          <input type="text" name="mobile" placeholder="Mobile number or email">
-          <input type="text" name="lastname" placeholder="New password">
+          <div class="FirstLast">
+            <input class="form"type="text" name="firstname" placeholder="First name">
+            <input class="form"type="text" name="lastname" placeholder="Last name">
+          </div>
 
+          <div class="MobilePassword">
+            <input class="MobilePassword2"type="text" name="mobile" placeholder="Mobile number or email">
+            <input class="MobilePassword2"type="password" name="password" placeholder="New password">
+          </div>
         </form>
 
-        <p>Birthday       </p>
-          <select month = "dropdown">
+        <p>Birthday </p>
+          <select class="dropdown"month = "dropdown">
               <option value = "month">Month </option>
               <option value = "Jan">January </option>
               <option value = "Feb">February  </option>
@@ -73,7 +77,7 @@
               <option value = "Dec">December  </option>
             </select>
 
-            <select day = "dropdown">
+            <select class="dropdown" day = "dropdown">
               <option value = "day">Day </option>
               <option value = "1">1 </option>
               <option value = "2">2 </option>
@@ -107,7 +111,7 @@
               <option value = "30">30 </option>
             </select>
 
-            <select year = "dropdown">
+            <select class="dropdown"year = "dropdown">
               <option value = "Year">Year </option>
               <option value = "1">2018  </option>
               <option value = "2">2017  </option>
@@ -129,12 +133,14 @@
               <option value = "18">2001 </option>
               <option value = "19">2001 </option>
               <option value = "20">2000 </option>
-            </select>
-            <p> Why do I need to provide my birthday? </p>
 
-            <br/>
+            </select>
+             Why do I need to provide my birthday?
+
+            <div class="Gender">
             <input type="radio" name="gender" value="yes">Female
             <input type="radio" name="gender" value="no">Male
+            </div>
 
             <p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time. </p>
 
@@ -148,7 +154,7 @@
 
 
 <div class="footer">
-<ul>
+<ul class="languages">
 <li><a href="#">English (US)</a></li>
 <li><a href="#">Español</a></li>
 <li><a href="#">Français (France)</a></li>
@@ -162,7 +168,7 @@
 </ul>
 
 
-<ul>
+<ul class="bottom">
 <li><a href="#">Sign Up</a></li>
 <li><a href="#">Log In</a></li>
 <li><a href="#">Messenger</a></li>
