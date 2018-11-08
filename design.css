@@ -1,47 +1,3 @@
-/* html, body, header, nav, h1, a,
-ul, ol, li, strong, main, button, i,
-section, img, div, h2, p, form,
-fieldset, label, input, textarea,
-span, article, footer, time, small {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font: inherit;
-  color: inherit;
-  text-align: inherit;
-  text-decoration: inherit;
-  vertical-align: inherit;
-  box-sizing: inherit;
-  background: transparent;
-}
-
-ul, ol {
-  list-style: none;
-}
-
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-input[type="password"],
-input[type="email"],
-input[type="text"],
-input[type="submit"],
-textarea,
-button {
-
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-
-button,
-input[type="submit"] {
-  cursor: pointer;
-} */
-
 * body {
   margin: 0 0
 }
@@ -128,6 +84,11 @@ input[type="submit"] {
   font-size: 20px;
 }
 
+.free {
+  grid-column: 2;
+  grid-row: 2;
+}
+
 .account {
   grid-column: 2;
   grid-row: 1;
@@ -160,10 +121,33 @@ input[type="submit"] {
   font-size: 14px;
 }
 
+.Why {
+  font-size: 11px;
+  max-width: 150px;
+}
 
-.free {
-  grid-column: 2;
-  grid-row: 2;
+.terms {
+  font-size: 11px;
+}
+
+.submit {
+  background-color: #709d58;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+  width: 200px;
+  height: 50px;
+  font-size: 22px;
+  border-radius: 8px;
+  border-color: black;
+}
+
+.create {
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 15px;
 }
 
 .languages {
@@ -173,15 +157,15 @@ input[type="submit"] {
 }
 
 .bottom {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
 }
 
-li{
-    padding-left:20px;
+li {
+  padding-left:20px;
 }
 
 a {
-    color: #3c5994;
+  color: #3c5994;
 }
