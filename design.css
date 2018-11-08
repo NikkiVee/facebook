@@ -153,13 +153,35 @@
 .languages {
   display: flex;
   list-style-type: none;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-.bottom {
+/* .bottom {
   display: flex;
   list-style-type: none;
   justify-content: space-around;
+} */
+
+.row1 {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.row2 {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.row3 {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.lastbaby {
+      padding-left: 75px;
 }
 
 li {
